@@ -1,0 +1,147 @@
+*{
+	font-size: 15pt;
+	font-style: italic;
+}
+
+body{
+	margin: 0;
+	height: 100vh;
+	width: 100%;
+}
+
+header {
+	height: 60px;
+	margin-bottom: 10px;
+	background-color: #2a5289;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+header .name {
+	margin: 4px 100px;
+}
+
+.name h3 a{
+	text-decoration: none;
+	color: white;
+}
+
+header .list{
+	display: flex;
+	align-items: center;
+	height: 100%;
+	text-align: center;
+}
+
+.list a{
+	text-decoration: none;
+	padding: 2px 8px;
+	background-color: white;
+	color:black;
+	border-radius: 3px;
+}
+
+.list a:hover{
+	color:black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.paginate_button a{
+	color: black;
+}
+
+.active a{
+	background-color: #212529 !important;
+}
+
+
+.main{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 30px;
+}
+
+.table-wrapper{
+	width: 75%;
+	padding: 0 70px;
+	margin-top: 15px !important;
+}
+
+.filter{
+	width: 25%;
+}
+
+.filter-row{
+	width: 95%;
+	margin: 20px auto;
+}
+
+.btn-row{
+	width: 100%;
+}
+
+
+.search_btn{
+	margin: 0 100px;
+}
+
+.show{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 60px;
+}
+
+.s1,.s2,.s3{
+	margin: 10px;
+	padding: 10px;
+	color: white;
+	border:1px solid black; 
+	border-radius: 10px;
+}
+
+.s1{
+	background-color: #2a5289;;
+}
+
+.s2{
+	background-color: #b80000;
+}
+
+.s3{
+	background-color: black;
+}
+
+
+.form{
+	margin: 50px auto;
+	width: 60%;
+}
+
+.form_row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.col1{
+	width: 30%;
+	margin-bottom: 0 !important;
+}
+
+.col2{
+	width: 70%;
+}
+
+
+.btn{
+	width: 49.5%;
+}
+
